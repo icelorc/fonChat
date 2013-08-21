@@ -10,4 +10,10 @@
 
 @implementation fontechUser
 
+@synthesize name = _name;
+@synthesize userId = _userId;
+@synthesize userPassword = _userPassword;
+@synthesize position = _position;
+@synthesize image = _image;
+
 @end
