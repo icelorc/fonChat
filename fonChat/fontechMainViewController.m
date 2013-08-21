@@ -17,6 +17,9 @@
 @implementation fontechMainViewController
 
 @synthesize user = _user;
+@synthesize usernameField = _usernameField;
+@synthesize passwordField = _passwordField;
+@synthesize loginButton = _loginButton;
 
 - (void)viewDidLoad
 {

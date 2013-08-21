@@ -66,6 +66,11 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
+                    <connections>
+                        <outlet property="loginButton" destination="pdA-H4-WlR" id="5D1-iW-mLW"/>
+                        <outlet property="passwordField" destination="zx5-WD-fCf" id="A8A-Wb-aea"/>
+                        <outlet property="usernameField" destination="7si-vl-Vf9" id="kxY-Fr-feD"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="-51" y="182"/>
