@@ -10,9 +10,13 @@
 
 @interface fontechMainViewController ()
 
+
 @end
 
+
 @implementation fontechMainViewController
+
+@synthesize user = _user;
 
 - (void)viewDidLoad
 {
