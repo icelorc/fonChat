@@ -61,6 +61,8 @@
 		9FD7A66C17C494E4003EE6DB /* fonChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fonChatTests-Info.plist"; sourceTree = "<group>"; };
 		9FD7A66E17C494E4003EE6DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9FD7A67017C494E4003EE6DB /* fonChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fonChatTests.m; sourceTree = "<group>"; };
+		9FD7A67A17C49C02003EE6DB /* fontechUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fontechUser.h; sourceTree = "<group>"; };
+		9FD7A67B17C49C02003EE6DB /* fontechUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fontechUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,8 @@
 		9FD7A64417C494E4003EE6DB /* fonChat */ = {
 			isa = PBXGroup;
 			children = (
+				9FD7A67A17C49C02003EE6DB /* fontechUser.h */,
+				9FD7A67B17C49C02003EE6DB /* fontechUser.m */,
 				9FD7A64D17C494E4003EE6DB /* fontechAppDelegate.h */,
 				9FD7A64E17C494E4003EE6DB /* fontechAppDelegate.m */,
 				9FD7A65017C494E4003EE6DB /* Main.storyboard */,
