@@ -33,6 +33,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Login
+
+- (IBAction) LoginAction:(UIButton *)sender {
+
+
+}
+
 #pragma mark - Flipside View
 
 - (void)flipsideViewControllerDidFinish:(fontechFlipsideViewController *)controller
@@ -46,5 +53,15 @@
         [[segue destinationViewController] setDelegate:self];
     }
 }
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+	NSLog(@"textFieldShouldReturn:");
+	[textField becomeFirstResponder];
+
+		[textField resignFirstResponder];
+	
+	return YES;
+}
+
 
 @end

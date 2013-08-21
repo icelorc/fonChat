@@ -25,6 +25,10 @@
 		9FD7A66717C494E4003EE6DB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD7A64217C494E4003EE6DB /* CoreData.framework */; };
 		9FD7A66F17C494E4003EE6DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FD7A66D17C494E4003EE6DB /* InfoPlist.strings */; };
 		9FD7A67117C494E4003EE6DB /* fonChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD7A67017C494E4003EE6DB /* fonChatTests.m */; };
+		9FD7A67D17C4AC64003EE6DB /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD7A67C17C4AC64003EE6DB /* Firebase.framework */; };
+		9FD7A67F17C4AC94003EE6DB /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD7A67E17C4AC93003EE6DB /* libicucore.dylib */; };
+		9FD7A68117C4AC9D003EE6DB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD7A68017C4AC9D003EE6DB /* CFNetwork.framework */; };
+		9FD7A68317C4ACA9003EE6DB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD7A68217C4ACA9003EE6DB /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		9FD7A67017C494E4003EE6DB /* fonChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fonChatTests.m; sourceTree = "<group>"; };
 		9FD7A67A17C49C02003EE6DB /* fontechUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fontechUser.h; sourceTree = "<group>"; };
 		9FD7A67B17C49C02003EE6DB /* fontechUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fontechUser.m; sourceTree = "<group>"; };
+		9FD7A67C17C4AC64003EE6DB /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		9FD7A67E17C4AC93003EE6DB /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		9FD7A68017C4AC9D003EE6DB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9FD7A68217C4ACA9003EE6DB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD7A68317C4ACA9003EE6DB /* Security.framework in Frameworks */,
+				9FD7A68117C4AC9D003EE6DB /* CFNetwork.framework in Frameworks */,
+				9FD7A67F17C4AC94003EE6DB /* libicucore.dylib in Frameworks */,
+				9FD7A67D17C4AC64003EE6DB /* Firebase.framework in Frameworks */,
 				9FD7A63F17C494E4003EE6DB /* CoreGraphics.framework in Frameworks */,
 				9FD7A64317C494E4003EE6DB /* CoreData.framework in Frameworks */,
 				9FD7A64117C494E4003EE6DB /* UIKit.framework in Frameworks */,
@@ -113,6 +125,10 @@
 		9FD7A63B17C494E4003EE6DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9FD7A68217C4ACA9003EE6DB /* Security.framework */,
+				9FD7A68017C4AC9D003EE6DB /* CFNetwork.framework */,
+				9FD7A67E17C4AC93003EE6DB /* libicucore.dylib */,
+				9FD7A67C17C4AC64003EE6DB /* Firebase.framework */,
 				9FD7A63C17C494E4003EE6DB /* Foundation.framework */,
 				9FD7A63E17C494E4003EE6DB /* CoreGraphics.framework */,
 				9FD7A64017C494E4003EE6DB /* UIKit.framework */,
@@ -395,9 +411,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fonChat/fonChat-Prefix.pch";
 				INFOPLIST_FILE = "fonChat/fonChat-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,9 +429,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fonChat/fonChat-Prefix.pch";
 				INFOPLIST_FILE = "fonChat/fonChat-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

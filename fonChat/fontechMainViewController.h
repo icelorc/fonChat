@@ -11,7 +11,7 @@
 
 #import <CoreData/CoreData.h>
 
-@interface fontechMainViewController : UIViewController <fontechFlipsideViewControllerDelegate>
+@interface fontechMainViewController : UIViewController <fontechFlipsideViewControllerDelegate, UITextFieldDelegate>
 
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (strong, nonatomic) fontechUser *user;
