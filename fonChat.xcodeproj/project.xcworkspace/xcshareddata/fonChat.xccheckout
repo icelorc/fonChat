@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0522CE66-4F9B-4704-9073-2BBD9569BD71</string>
+	<key>IDESourceControlProjectName</key>
+	<string>fonChat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B70F292A-8CED-4108-A3DB-2AE7DAF96FDB</key>
+		<string>https://github.com/icelorc/fonChat.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>fonChat.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>92E92CA2-4E7D-4ABD-B898-FE9260F0ADCA</key>
+		<string>../../fonChat</string>
+		<key>B70F292A-8CED-4108-A3DB-2AE7DAF96FDB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/icelorc/fonChat.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B70F292A-8CED-4108-A3DB-2AE7DAF96FDB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B70F292A-8CED-4108-A3DB-2AE7DAF96FDB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>fonChat</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>92E92CA2-4E7D-4ABD-B898-FE9260F0ADCA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>fonChat</string>
+		</dict>
+	</array>
+</dict>
+</plist>
