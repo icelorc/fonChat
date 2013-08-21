@@ -10,4 +10,10 @@
 
 @interface fontechUser : NSObject
 
+@property (strong, nonatomic) NSString *name;
+@property (strong, nonatomic) NSString *userId;
+@property (strong, nonatomic) NSString *userPassword;
+@property (strong, nonatomic) NSString *position;
+@property (strong, nonatomic) UIImage *userImage;
+
 @end
