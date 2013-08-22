@@ -8,6 +8,7 @@
 
 #import "fontechFlipsideViewController.h"
 #import "fontechUser.h"
+#import <Firebase/Firebase.h>
 
 #import <CoreData/CoreData.h>
 
@@ -18,5 +19,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *usernameField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordField;
 @property (weak, nonatomic) IBOutlet UIButton *loginButton;
+@property (strong, nonatomic) Firebase *firebase;
 
 @end

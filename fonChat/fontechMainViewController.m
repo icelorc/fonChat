@@ -20,6 +20,7 @@
 @synthesize usernameField = _usernameField;
 @synthesize passwordField = _passwordField;
 @synthesize loginButton = _loginButton;
+@synthesize firebase = _firebase;
 
 - (void)viewDidLoad
 {
